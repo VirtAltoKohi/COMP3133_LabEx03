@@ -5,7 +5,7 @@ const restaurantRouter = require('./routes/RestaurantRoutes.js');
 const app = express();
 app.use(express.json());
 
-mongoose.connect('mongodb+srv://VirtAltoKohi:Cgifat$2462$@comp3133.bhrgzig.mongodb.net/?retryWrites=true&w=majority', {
+mongoose.connect('mongodb+srv://admin:KNZJwkdoAfSrpiA2@comp3133.bhrgzig.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true,
 }).then(success => {
